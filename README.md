@@ -63,17 +63,54 @@ Y= A⊕B
 
 
 **PROGRAM**
+```
+odule Gate_1 (
+    input  wire a,     // Input A
+    input  wire b,     // Input B
+    output wire and_out,
+    output wire or_out,
+    output wire not_out,   // only on A
+    output wire nand_out,
+    output wire nor_out,
+    output wire xor_out,
+    output wire xnor_out
+);
+
+    assign and_out  = a & b;      // AND gate
+    assign or_out   = a | b;      // OR gate
+    assign not_out  = ~a;         // NOT gate (on input A)
+    assign nand_out = ~(a & b);   // NAND gate
+    assign nor_out  = ~(a | b);   // NOR gate
+    assign xor_out  = a ^ b;      // XOR gate
+    assign xnor_out = ~(a ^ b);   // XNOR gate
+
+endmodule
+
+
+```
+
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by:Dhivakar.B
+ RegisterNumber: 25016480
  
 **Logic symbol & Truthtable**
 
+<img width="539" height="1028" alt="Screenshot 2025-11-19 132925" src="https://github.com/user-attachments/assets/936a9c2d-1c0a-4317-8795-5ea98d2c41db" />
+
 **RTL realization Output:** 
+<img width="909" height="694" alt="Screenshot 2025-11-19 133521" src="https://github.com/user-attachments/assets/c8e66f8e-0a28-4d60-a951-7f7b7b1e67e2" />
+
+**TIME WAVEFORM**
+<img width="954" height="751" alt="Screenshot 2025-11-19 133602" src="https://github.com/user-attachments/assets/d40d6ea2-93ae-464a-9182-5b553c9fb955" />
+
+
 
 **RTL**
 
+
 **Result:**
+The basic logic gates are studied and the truth tables are verified.
 
 
