@@ -99,13 +99,14 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 **RTL realization Output:** 
 
 <img width="909" height="694" alt="Screenshot 2025-11-19 133521" src="https://github.com/user-attachments/assets/5f34ac46-a484-4718-9825-b4fbebfea9e4" />
-**TIME WAVEFORM**
+
+**RTL**
 
 <img width="954" height="751" alt="Screenshot 2025-11-19 133602" src="https://github.com/user-attachments/assets/cb03c90d-6131-4a0d-af5e-75390f4842ba" />
 
 
-**RTL**
 
 **Result:**
+Thus the basic logic gates are studied and the truth tables are verified.
 
 
