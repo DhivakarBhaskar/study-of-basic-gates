@@ -64,7 +64,7 @@ Y= A⊕B
 
 **PROGRAM**
 ```
-odule Gate_1 (
+module Gate_1 (
     input  wire a,     // Input A
     input  wire b,     // Input B
     output wire and_out,
